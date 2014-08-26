@@ -1,0 +1,15 @@
+
+.enfoco {
+    background-color: #9F9;
+    border: 1px solid green;
+}
+
+.ayuda {
+    font-size: xx-small;
+    color: green;
+}
+
+input.error {
+    background-color: #FF9;
+    border: 1px solid red;
+}

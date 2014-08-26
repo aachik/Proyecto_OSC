@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Proyecto Osc</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="{% static 'js/form.js' %}"></script>
+</head>
+
+<body class="body">
+
+<header class="mainheader">
+    <nav>
+        <ul>
+            <li class="active"><a href="{% url 'app.views.main' %}">Inicio</a></li>
+            <li><a href="{% url 'app.views.form' %}">Registro</a></li>
+            <li><a href="#">Mapa Digital</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Aviso legal</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="contenido">
+
+    {% block contenido %}{% endblock %}
+
+</div>
+
+<footer class="mainFooter"><p>Copyright (c) 2014 <a href="{% url 'app.views.main' %}">Abdul Hamid Achik Lopez</a></p>
+</footer>
+
+
+</body>
+</html>

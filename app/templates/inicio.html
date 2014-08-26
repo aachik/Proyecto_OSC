@@ -1,0 +1,17 @@
+{% extends "estructure.html" %}
+
+{% block contenido %}
+
+    <section>
+    <h2>Organizaciones registradas</h2>
+
+
+    {% for organizacion in organizacion.object_list %}
+
+   <a href="{% url 'app.views.organizacion' organizacion.pk %}"><h4> {{ organizacion.nombre }}</h4></a>
+
+    {% endfor %}
+
+    </section>
+
+{% endblock %}

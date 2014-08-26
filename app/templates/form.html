@@ -1,0 +1,174 @@
+{% extends "estructure.html" %}
+
+{% block contenido %}
+    <div class="organizacion">
+    <form action="" method="POST" onsubmit="return validar();">
+        <ul>
+            <li>
+                <label for="Label">Nombre Organizacion*: </label>
+                <input type="text" id="nombre" name="nombre" onfocus="entroEnFoco(this)"
+                       onblur="salioDeFoco(this);revisarObligatorio(this)"/>
+            </li>
+            <li>
+                <label for="Label">Poblacion que atiende: </label>
+                <input type="text" id="poblacion" name="poblacion" onfocus="entroEnFoco(this)"
+                       onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label for="Label">Tipo de organizacion*:</label>
+                <select id="tipOrg" name="tipOrg" onfocus="entroEnFoco(this)"
+                        onblur="salioDeFoco(this);revisarObligatorio(this)">
+                    <option value="">Seleccione</option>
+                    <option>Medio ambiente</option>
+                    <option>Educacion</option>
+                    <option>Arte, cultura y recreacion</option>
+                    <option>Biblioteca</option>
+                    <option>Museo</option>
+                    <option>Radio</option>
+                    <option>Club deportivo</option>
+                    <option>Investigacion</option>
+                    <option>Centros de educacion especial</option>
+                    <option>Centros de educacion popular</option>
+                    <option>Rehabilitacion y prevencion</option>
+                    <option>Discapacidad</option>
+                    <option>Servicios de asistencia</option>
+                    <option>Centro de apoyo</option>
+                    <option>Albergue</option>
+                    <option>Asilo</option>
+                    <option>Estancia infantil</option>
+                    <option>Comedor comunitario</option>
+                    <option>Derechos humanos</option>
+                    <option>Promocion de voluntariado</option>
+                    <option>Fundaciones donantes</option>
+                    <option>Centros religiosos</option>
+                </select>
+            </li>
+            <li>
+                <label for="Label">Areas de interes:</label>
+
+                <input type="text" id="areainteres" name="areainteres" onfocus="entroEnFoco(this)"
+                       onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label for="Label">Actividades:</label>
+
+                <input type="text" id="actividades" name="actividades" onfocus="entroEnFoco(this)"
+                       onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label for="Label">Recursos:</label>
+
+                <input type="text" id="recursos" name="recursos" onfocus="entroEnFoco(this)"
+                       onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label for="Label">Direccion*:</label>
+
+                <input type="text" id="direccion" name="direccion" onfocus="entroEnFoco(this)"
+                       onblur="salioDeFoco(this);revisarObligatorio(this)"/>
+            </li>
+            <li>
+                <label for="Label">Fecha de establecimiento:</label>
+
+                <input type="date" id="fecha" name="fecha" onfocus="entroEnFoco(this)" onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label for="Label">Pagina web:</label>
+
+                <input type="text" id="web" name="web" onfocus="entroEnFoco(this)" onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label for="Label">Correo:</label>
+
+                <input type="text" id="correo" name="correo" onfocus="entroEnFoco(this)" onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label for="Label">Telefono:</label>
+
+                <input type="tel" id="tel" name="tel" onfocus="entroEnFoco(this)" onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label for="Label">Facebook:</label>
+
+                <input type="text" id="facebook" name="facebook" onfocus="entroEnFoco(this)"
+                       onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label for="Label">Twitter:</label>
+
+                <input type="text" id="twitter" name="twitter" onfocus="entroEnFoco(this)" onblur="salioDeFoco(this)"/>
+            </li>
+
+            <ul>
+               <li> <label>
+                    <input type="checkbox" value="Si"/>
+                    Lunes
+                </label></li>
+
+
+               <li> <label>
+                    <input type="checkbox" value="Si"/>
+                    Martes
+                </label></li>
+
+              <li>  <label>
+                    <input type="checkbox" value="Si"/>
+                    Miercoles
+                </label></li>
+              <li>  <label>
+                    <input type="checkbox" value="Si"/>
+                    Jueves
+                </label></li>
+
+              <li>  <label>
+                    <input type="checkbox" value="Si"/>
+                    Viernes
+                </label></li>
+               <li> <label>
+                    <input type="checkbox" value="Si"/>
+                    Sabado
+                </label></li>
+
+               <li> <label>
+                    <input type="checkbox" value="Si"/>
+                    Domingo
+                </label></li>
+
+            </ul>
+            <li>
+                <label for="Label">Horario de entrada: </label>
+                <input type="time" name="horarioEntrada" onfocus="entroEnFoco(this)" onblur="salioDeFoco(this)">
+            </li>
+            <li>
+                <label for="Label">Horario de salida:</label>
+                <input type="time" name="horarioSalida" onfocus="entroEnFoco(this)" onblur="salioDeFoco(this)">
+
+            </li>
+            <li>
+                <label for="Label">Nombre de contacto*:</label>
+
+                <input type="text" id="nombreContacto" name="nombreContacto" onfocus="entroEnFoco(this)"
+                       onblur="salioDeFoco(this);revisarObligatorio(this)"/>
+            </li>
+            <li>
+                <label for="Label">Numero de personas(staff):</label>
+
+                <input type="text" id="numeroStaff" name="numeroStaff" onfocus="entroEnFoco(this)"
+                       onblur="salioDeFoco(this)"/>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" value="SI"/>
+                    Aceptas los terminos de condicion
+                </label>
+            </li>
+            <li>
+                <button>Enviar</button>
+
+            </li>
+
+    </ul>
+</form>
+    </div>
+
+{% endblock %}
