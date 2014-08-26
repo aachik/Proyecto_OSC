@@ -2,23 +2,24 @@
 {% extends "estructure.html" %}
 {% block contenido %}
 
+<div class ="container">
+<div class ="page header">
+<h1>{{ organizacion.nombre }}</h1>
+</div>
 
-
-<h2>Organizacion:</h2>
-      <ul>
-        <li><p>Nombre:</p> {{ organizacion.nombre }}</li>
-        <li><p>Poblacion que atiende:</p> {{ organizacion.poblacion }}</li>
-        <li><p>Tipo de organizacion:</p> {{ organizacion.tipo }}</li>
-        <li><p>Direccion:</p>{{ organizacion.direccion }}</li>
-        <li><p>Fecha de inicio:</p> <date>{{ organizacion.fecha }}</date></li>
-        <li><p>Telefono:</p> {{ organizacion.telefono }}</li>
-        <li><p>Horario de :</p><time>{{ organizacion.iniciohora}} </time>  a  <time> {{ organizacion.finhora }}</time></li>
-        <li><p>Dias de trabajo:</p> {{ organizacion.dias }}</li>
-        <li><p>Nombre de contacto:</p> {{ organizacion.nombrecontacto }}</li>
-        <li><p>Numero de personas(Staff):</p> {{ organizacion.numeropersonas }}</li>
-        <li><p>Recursos:</p> {{ organizacion.recursos }}</li>
+      <ul class ="list-group">
+        <li class="list-group-item"><p>Poblacion que atiende:</p> {{ organizacion.poblacion }}</li>
+        <li class="list-group-item"><p>Tipo de organizacion:</p> {{ organizacion.tipo }}</li>
+        <li class="list-group-item"><p>Direccion:</p>{{ organizacion.direccion }}</li>
+        <li class="list-group-item"><p>Fecha de inicio:</p> <date>{{ organizacion.fecha }}</date></li>
+        <li class="list-group-item"><p>Telefono:</p> {{ organizacion.telefono }}</li>
+        <li class="list-group-item"><p>Horario de :</p><time>{{ organizacion.iniciohora}} </time>  a  <time> {{ organizacion.finhora }}</time></li>
+        <li class="list-group-item"><p>Dias de trabajo:</p> {{ organizacion.dias }}</li>
+        <li class="list-group-item"><p>Nombre de contacto:</p> {{ organizacion.nombrecontacto }}</li>
+        <li class="list-group-item"><p>Numero de personas(Staff):</p> {{ organizacion.numeropersonas }}</li>
+        <li class="list-group-item"><p>Recursos:</p> {{ organizacion.recursos }}</li>
       </ul>
-
+</div>
 
 
 {% endblock %}

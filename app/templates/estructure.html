@@ -10,25 +10,25 @@
     <script type="text/javascript" src="{% static 'js/form.js' %}"></script>
 </head>
 
-<body class="body">
+<body>
 
-<header class="mainheader">
-    <nav>
-        <ul>
-            <li class="active"><a href="{% url 'app.views.main' %}">Inicio</a></li>
+        <ul class = "nav nav-tabs" role="navigation">
+            <li><a href="{% url 'app.views.main' %}">Inicio</a></li>
             <li><a href="{% url 'app.views.form' %}">Registro</a></li>
-            <li><a href="#">Mapa Digital</a></li>
+            <li><a href="#">Login</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Aviso legal</a></li>
             <li><a href="#">Contacto</a></li>
         </ul>
-    </nav>
-</header>
+
+
+<div class ="container">
 
 <div class="contenido">
 
     {% block contenido %}{% endblock %}
 
+</div>
 </div>
 
 <footer class="mainFooter"><p>Copyright (c) 2014 <a href="{% url 'app.views.main' %}">Abdul Hamid Achik Lopez</a></p>

@@ -2,16 +2,25 @@
 
 {% block contenido %}
 
-    <section>
-    <h2>Organizaciones registradas</h2>
-
+<div class="jumbotron">
+  <h1>Proyecto OSC</h1>
+  <p>captura de informacion de OSC laguneras</p>
+  <p><a class="btn btn-primary btn-lg" role="button">Registrarte</a></p>
+</div>
+<div class="page-header">
+  <h1>Organizaciones registradas <small>Haz click para mostrar mas informacion</small></h1>
+<div class = "container">
+<ul  class ="list-group">
 
     {% for organizacion in organizacion.object_list %}
 
-   <a href="{% url 'app.views.organizacion' organizacion.pk %}"><h4> {{ organizacion.nombre }}</h4></a>
+   <li class="list-group-item">
+       <a href="{% url 'app.views.organizacion' organizacion.pk %}">{{ organizacion.nombre }}</a>
+   </li>
 
     {% endfor %}
-
-    </section>
+</ul>
+</div>
+    </div>
 
 {% endblock %}

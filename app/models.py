@@ -45,7 +45,7 @@ class TiposRedesSociales(models.Model):
 
 class RedSocial(models.Model):
     nombre = models.CharField(max_length=255)
-    tipo = models.ForeignKey(TiposRedesSociales)
+    tipo = models.ManyToManyField(TiposRedesSociales)
 
     def __str__(self):
         return self.nombre
@@ -66,7 +66,7 @@ class Organizacion(models.Model):
     nombrecontacto = models.CharField(max_length=150)
     numeropersonas = models.CharField(max_length=3)
     recursos = models.CharField(max_length=255)
-    tipOrg = models.ManyToManyField(TipoOrganizacion)
+    tipo = models.ManyToManyField(TipoOrganizacion)
     actividades = models.ManyToManyField(Actividades)
     areas = models.ManyToManyField(AreasInteres)
     red = models.ManyToManyField(RedSocial)
