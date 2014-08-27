@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c12e86e-b94c-471b-b76d-07e434f634aa" name="Default" comment="cambie el diseño y anduve haciendo pruebas con el panel de administracion">
+    <list default="true" id="9c12e86e-b94c-471b-b76d-07e434f634aa" name="Default" comment="cambiando archivos para pbulicar el proyecto nuevamente">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -642,7 +642,11 @@
       <created>1409093830051</created>
       <updated>1409093830051</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cambiando archivos para pbulicar el proyecto nuevamente">
+      <created>1409093934803</created>
+      <updated>1409093934803</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -682,7 +686,8 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="subiendo archivos" />
     <MESSAGE value="cambie el diseño y anduve haciendo pruebas con el panel de administracion" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambie el diseño y anduve haciendo pruebas con el panel de administracion" />
+    <MESSAGE value="cambiando archivos para pbulicar el proyecto nuevamente" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambiando archivos para pbulicar el proyecto nuevamente" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
