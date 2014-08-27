@@ -3,157 +3,250 @@
 {% block contenido %}
     <div class="container">
 
-        <div class="header">
-            <h1>Formulario de registro</h1>
+        <div class="page-header">
+            <h1>Formulario de registro<small> llenar todos los datos de ser posible</small></h1>
         </div>
         <form class="form-horizontal" role="form">
-            <div class="form-group">
-                <label  > Nombre Organizacion*: </label>
-                <input class="form-control" type="text" id="nombre" name="nombre" required/>
-            </div>
-            <div class="form-group">
-                <label>Poblacion que atiende: </label>
-                <input type="text" id="poblacion" name="poblacion" required/>
-            </div>
-            <div class="form-group">
-                <label>Tipo de organizacion*:</label>
-                <select id="tipo" name="tipo" required>
-                    <option value="">Seleccione</option>
-                    <option>Medio ambiente</option>
-                    <option>Educacion</option>
-                    <option>Arte, cultura y recreacion</option>
-                    <option>Biblioteca</option>
-                    <option>Museo</option>
-                    <option>Radio</option>
-                    <option>Club deportivo</option>
-                    <option>Investigacion</option>
-                    <option>Centros de educacion especial</option>
-                    <option>Centros de educacion popular</option>
-                    <option>Rehabilitacion y prevencion</option>
-                    <option>Discapacidad</option>
-                    <option>Servicios de asistencia</option>
-                    <option>Centro de apoyo</option>
-                    <option>Albergue</option>
-                    <option>Asilo</option>
-                    <option>Estancia infantil</option>
-                    <option>Comedor comunitario</option>
-                    <option>Derechos humanos</option>
-                    <option>Promocion de voluntariado</option>
-                    <option>Fundaciones donantes</option>
-                    <option>Centros religiosos</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label>Areas de interes:</label>
-                <input type="text" id="areainteres" name="areainteres" required/>
-            </div>
-            <div class="form-group">
-                <label>Actividades:</label>
-
-                <input type="text" id="actividades" name="actividades" required/>
-            </div>
-            <div class="form-group">
-                <label>Recursos:</label>
-
-                <input type="text" id="recursos" name="recursos"/>
-            </div>
-            <div class="form-group">
-                <label>Direccion*:</label>
-                <input type="text" id="direccion" name="direccion" required/>
-
-            </div>
-            <div class="form-group">
-                <label>Fecha de establecimiento:</label>
-                <input type="date" id="fecha" name="fecha"/>
-            </div>
 
             <div class="form-group">
-                <label>Pagina web:</label>
-                <input type="text" id="web" name="web"/>
+                <label for="nombre de la organizacion" class="col-sm-4 control-label"> Nombre de la
+                    organizacion*: </label>
 
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" class="form-control" id="nombre" name="nombre" required/>
+                    </div>
+                </div>
             </div>
             <div class="form-group">
-                <label>Correo:</label>
-                <input type="text" id="correo" name="correo"/>
+                <label class="col-sm-4 control-label">Poblacion que atiende: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="poblacion" class="form-control" name="poblacion" required/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Tipo de organizacion: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <select class="form-control" id="tipo" name="tipo" required>
+                            <option value="">Seleccione</option>
+                            <option>Medio ambiente</option>
+                            <option>Educacion</option>
+                            <option>Arte, cultura y recreacion</option>
+                            <option>Biblioteca</option>
+                            <option>Museo</option>
+                            <option>Radio</option>
+                            <option>Club deportivo</option>
+                            <option>Investigacion</option>
+                            <option>Centros de educacion especial</option>
+                            <option>Centros de educacion popular</option>
+                            <option>Rehabilitacion y prevencion</option>
+                            <option>Discapacidad</option>
+                            <option>Servicios de asistencia</option>
+                            <option>Centro de apoyo</option>
+                            <option>Albergue</option>
+                            <option>Asilo</option>
+                            <option>Estancia infantil</option>
+                            <option>Comedor comunitario</option>
+                            <option>Derechos humanos</option>
+                            <option>Promocion de voluntariado</option>
+                            <option>Fundaciones donantes</option>
+                            <option>Centros religiosos</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Areas de interes: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="areainteres" class="form-control" name="areainteres" required/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Actividades: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="actividades" class="form-control" name="actividades" required/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Recursos: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="recursos" class="form-control" name="recursos" required/>
+                    </div>
+                </div>
             </div>
 
             <div class="form-group">
-                <label>Telefono:</label>
-                <input type="tel" id="tel" name="tel"/>
+                <label class="col-sm-4 control-label">Dirección: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="direccion" class="form-control" name="direccion" required/>
+                    </div>
+                </div>
             </div>
 
             <div class="form-group">
-                <label>Facebook:</label>
-                <input type="text" id="facebook" name="facebook"/>
+                <label class="col-sm-4 control-label">Fecha de establecimiento: </label>
 
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="date" id="fecha" class="form-control" name="fecha"/>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Página web: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="web" class="form-control" name="web" required/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Correo: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="email" id="correo" class="form-control" name="correo" required/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-4 control-label">Telefono: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="tel" id="tel" class="form-control" name="tel" required/>
+                    </div>
+                </div>
             </div>
             <div class="form-group">
-                <label>Twitter:</label>
-                <input type="text" id="twitter" name="twitter"/>
+                <label class="col-sm-4 control-label">Facebook: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="facebook" class="form-control" name="facebook" required/>
+                    </div>
+                </div>
             </div>
 
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="Si"/>
-                    Lunes
-                </label>
+            <div class="form-group">
+                <label class="col-sm-4 control-label">
+                    Twitter: </label>
 
-                <label>
-                    <input type="checkbox" value="Si"/>
-                    Martes
-                </label>
-
-
-                <label>
-                    <input type="checkbox" value="Si"/>
-                    Miercoles
-                </label>
-
-                <label>
-                    <input type="checkbox" value="Si"/>
-                    Jueves
-                </label>
-
-
-                <label>
-                    <input type="checkbox" value="Si"/>
-                    Viernes
-                </label>
-
-                <label>
-                    <input type="checkbox" value="Si"/>
-                    Sabado
-                </label>
-
-                <label>
-                    <input type="checkbox" value="Si"/>
-                    Domingo
-                </label>
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="twitter" class="form-control" name="twitter" required/>
+                    </div>
+                </div>
             </div>
             <div class="form-group">
-                <label>Horario de entrada: </label>
-                <input type="time" name="horarioEntrada">
+                <label class="col-sm-4 control-label">Dias de trabajo: </label>
 
-                <label>Horario de salida:</label>
-                <input type="time" name="horarioSalida">
+                <div class="col-sm-8">
+                    <div class="checkbox-inline">
+
+                        <input type="checkbox" value="Si"/>
+                        Lunes
+                    </div>
+
+                    <div class="checkbox-inline">
+                        <input type="checkbox" value="Si"/>
+                        Martes
+                    </div>
+
+                    <div class="checkbox-inline">
+                        <input type="checkbox" value="Si"/>
+                        Miercoles
+                    </div>
+                    <div class="checkbox-inline">
+                        <input type="checkbox" value="Si"/>
+                        Jueves
+                    </div>
+
+
+                    <div class="checkbox-inline">
+                        <input type="checkbox" value="Si"/>
+                        Viernes
+                    </div>
+
+                    <div class="checkbox-inline">
+                        <input type="checkbox" value="Si"/>
+                        Sabado
+                    </div>
+
+                    <div class="checkbox-inline">
+                        <input type="checkbox" value="Si"/>
+                        Domingo
+
+                    </div>
+                </div>
+            </div>
+
+
+             <div class="form-group">
+                <label class="col-sm-4 control-label">
+                    Horario de entrada: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-3">
+                        <input type="time" id="horaIni" class="form-control" name="HoraIni" required/>
+
+               </div></div>
+            </div>
+                 <div class="form-group">
+                <label class="col-sm-4 control-label">
+                    Horario de salida: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-3">
+<input type="time" id="horaSal"name="horaSal" class="form-control" required></div>
+
+               </div>
+               </div>
+
+<div class="form-group">
+                <label class="col-sm-4 control-label">
+                    Nombre de Contacto*: </label>
+
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="contacto" class="form-control" name="contacto" required/>
+                    </div>
+                </div>
             </div>
             <div class="form-group">
-                <label>Nombre de contacto*:</label>
-                <input type="text" id="nombreContacto" name="nombreContacto"/>
+                <label class="col-sm-4 control-label">
+                    Número de personas(staff): </label>
 
-            </div>
-            <div class="form-group">
-                <label>Numero de personas(staff):</label>
-                <input type="text" id="numeroStaff" name="numeroStaff"/>
-            </div>
-            <div class="form-group">
-                <label>
-                    <input type="checkbox" value="SI"/>
-                    Aceptas los terminos de condicion
-                </label>
-            </div>
-            <button type="submit">Enviar</button>
-
+                <div class="col-sm-8">
+                    <div class="col-xs-10">
+                        <input type="text" id="staff" class="form-control" name="staff" required/>
+                    </div>
+                </div>
+            </div><div class="form-group">
+                <div class="col-sm-8 control-label">
+                    <div class="col-xs-10">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+</div></div></div>
         </form>
     </div>
 
