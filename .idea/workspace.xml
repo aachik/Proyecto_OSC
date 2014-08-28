@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c12e86e-b94c-471b-b76d-07e434f634aa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/organizacion.html" afterPath="$PROJECT_DIR$/app/templates/organizacion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proyecto_OSC/settings.py" afterPath="$PROJECT_DIR$/Proyecto_OSC/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -33,15 +36,7 @@
         <entry file="file://$PROJECT_DIR$/app/templates/estructure.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="765">
-              <folding>
-                <marker date="1409093525576" expanded="true" signature="22:984" placeholder="..." />
-                <marker date="1409093525576" expanded="true" signature="29:332" placeholder="..." />
-                <marker date="1409093525576" expanded="true" signature="340:976" placeholder="..." />
-                <marker date="1409093525576" expanded="true" signature="395:729" placeholder="..." />
-                <marker date="1409093525576" expanded="true" signature="756:837" placeholder="..." />
-                <marker date="1409093525576" expanded="true" signature="781:830" placeholder="..." />
-                <marker date="1409093525576" expanded="true" signature="866:966" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,7 +44,7 @@
       <file leaf-file-name="inicio.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/inicio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="527">
+            <state line="10" column="32" selection-start="291" selection-end="291" vertical-scroll-proportion="-4.0384617" vertical-offset="65" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -58,7 +53,7 @@
       <file leaf-file-name="organizacion.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/organizacion.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="79" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.8607595" vertical-offset="0" max-vertical-offset="527">
+            <state line="46" column="29" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.76848876" vertical-offset="543" max-vertical-offset="1105">
               <folding />
             </state>
           </provider>
@@ -67,7 +62,7 @@
       <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="34" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="4386">
+            <state line="24" column="20" selection-start="900" selection-end="923" vertical-scroll-proportion="-6.5384617" vertical-offset="238" max-vertical-offset="4386">
               <folding />
             </state>
           </provider>
@@ -94,7 +89,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto_OSC/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="2" selection-start="1706" selection-end="1918" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1853">
+            <state line="68" column="24" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1870">
               <folding />
             </state>
           </provider>
@@ -581,7 +576,11 @@
       <created>1409261020164</created>
       <updated>1409261020164</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modifique la coneccion a datos, cambie la estructura de la pagina del lado de las organizaciones">
+      <created>1409261048716</created>
+      <updated>1409261048716</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -610,15 +609,15 @@
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35188216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21768707" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21768707" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.7823129" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3189394" sideWeight="0.67517006" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.66156465" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27954546" sideWeight="0.5408163" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27954546" sideWeight="0.4659864" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27954546" sideWeight="0.2414966" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27954546" sideWeight="0.207483" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32482994" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3180272" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32482994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31462586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -642,7 +641,8 @@
     <MESSAGE value="subiendo archivos" />
     <MESSAGE value="cambie el diseño y anduve haciendo pruebas con el panel de administracion" />
     <MESSAGE value="Arregle el formulario pero solo visualmente, aun no jala" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arregle el formulario pero solo visualmente, aun no jala" />
+    <MESSAGE value="modifique la coneccion a datos, cambie la estructura de la pagina del lado de las organizaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifique la coneccion a datos, cambie la estructura de la pagina del lado de las organizaciones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -726,13 +726,6 @@
         <state line="132" column="23" selection-start="3392" selection-end="3392" vertical-scroll-proportion="0.33333334" vertical-offset="2080" max-vertical-offset="8228" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="4386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -787,28 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/estructure.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding>
-            <marker date="1409093525576" expanded="true" signature="22:984" placeholder="..." />
-            <marker date="1409093525576" expanded="true" signature="29:332" placeholder="..." />
-            <marker date="1409093525576" expanded="true" signature="340:976" placeholder="..." />
-            <marker date="1409093525576" expanded="true" signature="395:729" placeholder="..." />
-            <marker date="1409093525576" expanded="true" signature="756:837" placeholder="..." />
-            <marker date="1409093525576" expanded="true" signature="781:830" placeholder="..." />
-            <marker date="1409093525576" expanded="true" signature="866:966" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_OSC/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="2" selection-start="1706" selection-end="1918" vertical-scroll-proportion="0.0" vertical-offset="1019" max-vertical-offset="1853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="21" selection-start="1590" selection-end="1590" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
@@ -816,16 +787,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_OSC/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="24" selection-start="1857" selection-end="1857" vertical-scroll-proportion="0.0" vertical-offset="889" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/estructure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/inicio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+        <state line="10" column="32" selection-start="291" selection-end="291" vertical-scroll-proportion="-4.0384617" vertical-offset="65" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="900" selection-end="923" vertical-scroll-proportion="-6.5384617" vertical-offset="238" max-vertical-offset="4386">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/organizacion.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="79" selection-start="1265" selection-end="1265" vertical-scroll-proportion="0.8607595" vertical-offset="0" max-vertical-offset="527">
+        <state line="46" column="29" selection-start="1865" selection-end="1865" vertical-scroll-proportion="0.76848876" vertical-offset="543" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>

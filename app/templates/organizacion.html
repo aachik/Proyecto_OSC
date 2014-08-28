@@ -18,7 +18,41 @@
         <li class="list-group-item"><p>Nombre de contacto:</p> {{ organizacion.nombrecontacto }}</li>
         <li class="list-group-item"><p>Numero de personas(Staff):</p> {{ organizacion.numeropersonas }}</li>
         <li class="list-group-item"><p>Recursos:</p> {{ organizacion.recursos }}</li>
-          <li class="list-group-item"><p>Actividades:</p> {{ actividades.nombre }}</li>
+      <li class="list-group-item"><p>Actividades:</p>
+         <ul >
+         {% for actividades in organizacion.actividades.all %}
+           <li >
+           {{ actividades.nombre}}
+           </li>
+
+            {% endfor %}
+         </ul>
+      </li>
+      <li class="list-group-item"><p>Areas de interes:</p>
+         <ul >
+         {% for areasinteres in organizacion.areas.all %}
+           <li >
+           {{ areasinteres.nombre}}
+           </li>
+
+
+            {% endfor %}
+
+         </ul>
+      </li>
+      <li class="list-group-item"><p>Redes sociales:</p>
+      <ul >
+         {% for tipo in organizacion.red.tipo.all %}
+           <li >
+           {{ tipo.tipo }} / {{ organizacion.red }}
+           </li>
+
+
+            {% endfor %}
+
+         </ul>
+      </li>
+
       </ul>
 </div>
 
