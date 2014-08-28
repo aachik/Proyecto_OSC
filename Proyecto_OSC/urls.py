@@ -14,7 +14,7 @@ urlpatterns = patterns('app.views',
     (r'^admin/', include(admin.site.urls)),
     (r"^organizacion/(?P<pk>\d+)/$", "organizacion"),
     (r"^form/","form"),
-
+    (r"^admin/", "admin"),
     (r"","main"),
 
 

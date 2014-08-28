@@ -32,3 +32,7 @@ def form(request):
 
 
     return render_to_response("form.html", dict(organizacion = organizacion, usuario = request.user))
+
+def admin(request):
+
+    return render_to_response("/admin/")
