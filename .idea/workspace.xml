@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c12e86e-b94c-471b-b76d-07e434f634aa" name="Default" comment="cambiando archivos para pbulicar el proyecto nuevamente">
+    <list default="true" id="9c12e86e-b94c-471b-b76d-07e434f634aa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Proyecto_OSC.iml" afterPath="$PROJECT_DIR$/.idea/Proyecto_OSC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -29,44 +32,117 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto_OSC/settings.py">
+      <file leaf-file-name="estructure.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/estructure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="56" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1717">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Python/#C:/Users/Abdul Hamid/PycharmProjects/Proyecto_OSC/Proyecto_OSC" pinned="false" current="false" current-in-tab="false">
-        <entry file="uml://Python/#C:/Users/Abdul Hamid/PycharmProjects/Proyecto_OSC/Proyecto_OSC">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>Python</ID>
-              <OriginalElement>#C:/Users/Abdul Hamid/PycharmProjects/Proyecto_OSC/Proyecto_OSC</OriginalElement>
-              <nodes />
-              <notes />
-              <edges />
-              <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-              <SelectedNodes />
-              <Categories />
+      <file leaf-file-name="inicio.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/inicio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="527">
+              <folding>
+                <marker date="1409099945365" expanded="true" signature="78:231" placeholder="..." />
+                <marker date="1409099945365" expanded="true" signature="257:639" placeholder="..." />
+                <marker date="1409099945365" expanded="true" signature="375:628" placeholder="..." />
+                <marker date="1409099945365" expanded="true" signature="401:621" placeholder="..." />
+                <marker date="1409099945365" expanded="true" signature="490:597" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto_OSC/urls.py">
+      <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="8" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <folding />
+            <state line="14" column="34" selection-start="498" selection-end="498" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="4386">
+              <folding>
+                <marker date="1409108292940" expanded="true" signature="81:9786" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="116:228" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="279:9775" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="317:715" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="404:461" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="501:696" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="545:673" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="752:1098" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="878:1079" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="922:1056" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="1135:2927" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="1260:2908" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="1304:2885" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="1389:2858" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="2964:3309" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="3085:3290" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="3129:3267" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="3346:3686" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="3462:3667" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="3506:3644" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="3723:4054" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="3836:4035" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="3880:4012" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="4092:4426" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="4206:4407" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="4250:4384" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="4464:4796" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="4593:4777" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="4637:4754" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="4835:5158" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="4950:5139" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="4994:5116" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="5196:5522" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="5307:5503" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="5351:5480" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="5560:5880" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="5673:5861" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="5717:5838" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="5917:6248" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="6030:6229" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="6074:6206" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="6286:6635" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="6341:6379" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="6419:6616" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="6463:6593" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="6672:8022" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="6792:8003" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="6842:6960" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="7011:7129" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="7180:7301" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="7351:7469" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="7521:7640" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="7691:7809" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="7860:7980" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8062:8400" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8117:8166" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8206:8381" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8249:8375" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8442:8756" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8497:8545" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8585:8734" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8628:8711" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8782:9145" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8837:8887" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8927:9126" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="8971:9103" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="9182:9545" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="9237:9293" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="9333:9526" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="9377:9503" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="9569:9759" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="9622:9753" placeholder="..." />
+                <marker date="1409108292940" expanded="true" signature="9666:9747" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Proyecto_OSC/__init__.py">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="355">
+            <state line="5" column="16" selection-start="75" selection-end="75" vertical-scroll-proportion="-2.5546448" vertical-offset="1020" max-vertical-offset="1445">
               <folding />
             </state>
           </provider>
@@ -145,40 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files">
@@ -216,21 +258,69 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_OSC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_OSC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_OSC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_OSC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_OSC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_OSC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_OSC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Proyecto_OSC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -244,144 +334,6 @@
       <recent name="C:\Users\Abdul Hamid\PycharmProjects\Proyecto_OSC\app" />
       <recent name="C:\Users\Abdul Hamid\PycharmProjects\Proyecto_OSC\Proyecto_OSC" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitattributes</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/.name</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/Proyecto_OSC.iml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dataSources.ids</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dataSources.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dictionaries/Abdul_Hamid.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/encodings.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/modules.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/scopes/scope_settings.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/vcs.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/Proyecto_OSC</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/__init__.py</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/admin.py</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/models.py</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/css/style.css</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/static/js/form.js</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/templates/estructure.html</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/templates/form.html</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/templates/inicio.html</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/templates/organizacion.html</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/tests.py</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/views.py</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/db.sqlite3</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/manage.py</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Django server.Proyecto_OSC">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -468,27 +420,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Proyecto_OSC" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -514,7 +446,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Proyecto_OSC" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -642,28 +594,28 @@
       <created>1409093830051</created>
       <updated>1409093830051</updated>
     </task>
-    <task id="LOCAL-00007" summary="cambiando archivos para pbulicar el proyecto nuevamente">
-      <created>1409093934803</created>
-      <updated>1409093934803</updated>
+    <task id="LOCAL-00007" summary="Arregle el formulario pero solo visualmente, aun no jala">
+      <created>1409108355210</created>
+      <updated>1409108355210</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35204083" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35188216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3112245" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3378788" sideWeight="0.67517006" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3378788" sideWeight="0.6666667" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.66156465" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15151516" sideWeight="0.6479592" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26136363" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21818182" sideWeight="0.2840136" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32482994" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32312927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -686,8 +638,8 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="subiendo archivos" />
     <MESSAGE value="cambie el diseño y anduve haciendo pruebas con el panel de administracion" />
-    <MESSAGE value="cambiando archivos para pbulicar el proyecto nuevamente" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambiando archivos para pbulicar el proyecto nuevamente" />
+    <MESSAGE value="Arregle el formulario pero solo visualmente, aun no jala" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arregle el formulario pero solo visualmente, aun no jala" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -734,12 +686,12 @@
           <nodes>
             <node x="" y="">app.models.TipoOrganizacion</node>
             <node x="" y="">app.models.AreasInteresOrganizacion</node>
-            <node x="" y="">app.models.AreasInteres</node>
             <node x="" y="">app.models.Organizacion</node>
-            <node x="" y="">app.models.RedSocial</node>
+            <node x="" y="">app.models.AreasInteres</node>
             <node x="" y="">app.models.Actividades</node>
-            <node x="" y="">app.models.TiposRedesSociales</node>
+            <node x="" y="">app.models.RedSocial</node>
             <node x="" y="">app.models.ActividadesOrganizacion</node>
+            <node x="" y="">app.models.TiposRedesSociales</node>
             <node x="" y="">app.models.RedesSocialesOrganizacion</node>
           </nodes>
           <notes />
@@ -754,13 +706,6 @@
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="173" column="16" selection-start="4381" selection-end="4381" vertical-scroll-proportion="0.33333334" vertical-offset="2816" max-vertical-offset="6290" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_OSC/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="56" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.0" vertical-offset="1130" max-vertical-offset="1717">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="uml://DATABASE/05b7f039-3086-4c8c-b4b9-e96fecdaf155">
@@ -781,11 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://db-console:/b704e5c5/4c831d4e-2229-4613-9460-b81490799692/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="321" />
-      </provider>
-    </entry>
     <entry file="uml://Python/#C:/Users/Abdul Hamid/PycharmProjects/Proyecto_OSC/Proyecto_OSC">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -797,19 +737,147 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
           <SelectedNodes />
           <Categories />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_OSC/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto_OSC/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="395">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="395" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_OSC/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="56" selection-start="2061" selection-end="2061" vertical-scroll-proportion="0.81449276" vertical-offset="1130" max-vertical-offset="1717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_OSC/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="176" selection-end="176" vertical-scroll-proportion="0.19710144" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/estructure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/inicio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <folding>
+            <marker date="1409099945365" expanded="true" signature="78:231" placeholder="..." />
+            <marker date="1409099945365" expanded="true" signature="257:639" placeholder="..." />
+            <marker date="1409099945365" expanded="true" signature="375:628" placeholder="..." />
+            <marker date="1409099945365" expanded="true" signature="401:621" placeholder="..." />
+            <marker date="1409099945365" expanded="true" signature="490:597" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="23" selection-start="3392" selection-end="3392" vertical-scroll-proportion="0.33333334" vertical-offset="2080" max-vertical-offset="8228">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="34" selection-start="498" selection-end="498" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="4386">
+          <folding>
+            <marker date="1409108292940" expanded="true" signature="81:9786" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="116:228" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="279:9775" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="317:715" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="404:461" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="501:696" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="545:673" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="752:1098" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="878:1079" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="922:1056" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="1135:2927" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="1260:2908" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="1304:2885" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="1389:2858" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="2964:3309" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="3085:3290" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="3129:3267" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="3346:3686" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="3462:3667" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="3506:3644" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="3723:4054" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="3836:4035" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="3880:4012" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="4092:4426" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="4206:4407" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="4250:4384" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="4464:4796" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="4593:4777" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="4637:4754" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="4835:5158" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="4950:5139" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="4994:5116" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="5196:5522" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="5307:5503" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="5351:5480" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="5560:5880" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="5673:5861" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="5717:5838" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="5917:6248" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="6030:6229" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="6074:6206" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="6286:6635" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="6341:6379" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="6419:6616" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="6463:6593" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="6672:8022" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="6792:8003" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="6842:6960" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="7011:7129" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="7180:7301" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="7351:7469" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="7521:7640" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="7691:7809" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="7860:7980" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8062:8400" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8117:8166" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8206:8381" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8249:8375" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8442:8756" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8497:8545" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8585:8734" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8628:8711" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8782:9145" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8837:8887" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8927:9126" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="8971:9103" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="9182:9545" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="9237:9293" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="9333:9526" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="9377:9503" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="9569:9759" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="9622:9753" placeholder="..." />
+            <marker date="1409108292940" expanded="true" signature="9666:9747" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="75" selection-end="75" vertical-scroll-proportion="-2.5546448" vertical-offset="1020" max-vertical-offset="1445">
           <folding />
         </state>
       </provider>
