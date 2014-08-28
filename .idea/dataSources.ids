@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="Django default" product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="4c831d4e-2229-4613-9460-b81490799692">
+  <data-source source="LOCAL" name="Django default" product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="54477ec4-a363-45c3-9ff3-7762ce4451b9">
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
     <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
     <jdbc-url>jdbc:sqlite:C:\Users\Abdul Hamid\PycharmProjects\Proyecto_OSC\db.sqlite3</jdbc-url>
@@ -9,7 +9,7 @@
         <url>file://$USER_HOME$/.PyCharm30/config/jdbc-drivers/xerial-sqlite-license.txt</url>
       </library>
       <library>
-        <url>jar://$USER_HOME$/.PyCharm30/config/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar!/</url>
+        <url>file://$USER_HOME$/.PyCharm30/config/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar</url>
       </library>
     </libraries>
     <schema name="" catalog=""/>
@@ -17,58 +17,18 @@
       <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <column name="nombre" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <primary-key columns="id"/>
-      <exported-key name="#FAKE_app_actividadesorganizacion_2" table="app_actividadesorganizacion" schema="" catalog="" columns="actividades_id"/>
-    </table>
-    <table name="app_actividadesorganizacion" schema="" catalog="" type="TABLE">
-      <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
-      <column name="actividades_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
-      <column name="organizacion_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
-      <primary-key columns="id"/>
-      <foreign-key name="#FAKE_app_actividadesorganizacion_1" columns="organizacion_id" ref-table="app_formulario" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
-      <foreign-key name="#FAKE_app_actividadesorganizacion_2" columns="actividades_id" ref-table="app_actividades" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
-      <index name="app_actividadesorganizacion_d38e3826" unique="true" columns="organizacion_id"/>
-      <index name="app_actividadesorganizacion_dfc159dc" unique="true" columns="actividades_id"/>
+      <exported-key name="#FAKE_app_organizacion_actividades_1" table="app_organizacion_actividades" schema="" catalog="" columns="actividades_id"/>
     </table>
     <table name="app_areasinteres" schema="" catalog="" type="TABLE">
       <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <column name="nombre" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <primary-key columns="id"/>
-      <exported-key name="#FAKE_app_areasinteresorganizacion_2" table="app_areasinteresorganizacion" schema="" catalog="" columns="areasinteres_id"/>
-    </table>
-    <table name="app_areasinteresorganizacion" schema="" catalog="" type="TABLE">
-      <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
-      <column name="areasinteres_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
-      <column name="organizacion_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
-      <primary-key columns="id"/>
-      <foreign-key name="#FAKE_app_areasinteresorganizacion_1" columns="organizacion_id" ref-table="app_formulario" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
-      <foreign-key name="#FAKE_app_areasinteresorganizacion_2" columns="areasinteres_id" ref-table="app_areasinteres" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
-      <index name="app_areasinteresorganizacion_d38e3826" unique="true" columns="organizacion_id"/>
-      <index name="app_areasinteresorganizacion_446b719a" unique="true" columns="areasinteres_id"/>
-    </table>
-    <table name="app_formulario" schema="" catalog="" type="TABLE">
-      <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
-      <column name="nombre" sqlType="VARCHAR(150)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="poblacion" sqlType="VARCHAR(100)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="tipo" sqlType="VARCHAR(100)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="direccion" sqlType="VARCHAR(200)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="fecha" sqlType="DATE" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="telefono" sqlType="VARCHAR(15)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="dias" sqlType="VARCHAR(200)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="iniciohora" sqlType="TIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="finhora" sqlType="TIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="nombrecontacto" sqlType="VARCHAR(150)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="numeropersonas" sqlType="VARCHAR(3)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="recursos" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <primary-key columns="id"/>
-      <exported-key name="#FAKE_app_actividadesorganizacion_1" table="app_actividadesorganizacion" schema="" catalog="" columns="organizacion_id"/>
-      <exported-key name="#FAKE_app_areasinteresorganizacion_1" table="app_areasinteresorganizacion" schema="" catalog="" columns="organizacion_id"/>
-      <exported-key name="#FAKE_app_redessocialesorganizacion_1" table="app_redessocialesorganizacion" schema="" catalog="" columns="organizacion_id"/>
+      <exported-key name="#FAKE_app_organizacion_areas_1" table="app_organizacion_areas" schema="" catalog="" columns="areasinteres_id"/>
     </table>
     <table name="app_organizacion" schema="" catalog="" type="TABLE">
       <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <column name="nombre" sqlType="VARCHAR(150)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <column name="poblacion" sqlType="VARCHAR(100)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="tipo" sqlType="VARCHAR(100)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <column name="direccion" sqlType="VARCHAR(200)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <column name="fecha" sqlType="DATE" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <column name="telefono" sqlType="VARCHAR(15)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
@@ -78,37 +38,58 @@
       <column name="nombrecontacto" sqlType="VARCHAR(150)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <column name="numeropersonas" sqlType="VARCHAR(3)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <column name="recursos" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
+      <column name="tipo_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="red_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <primary-key columns="id"/>
+      <foreign-key name="#FAKE_app_organizacion_1" columns="red_id" ref-table="app_redsocial" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_app_organizacion_2" columns="tipo_id" ref-table="app_tipoorganizacion" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="app_organizacion_32b20bf8" unique="true" columns="red_id"/>
+      <index name="app_organizacion_acf1eac4" unique="true" columns="tipo_id"/>
     </table>
-    <table name="app_redessocialesorganizacion" schema="" catalog="" type="TABLE">
+    <table name="app_organizacion_actividades" schema="" catalog="" type="TABLE">
       <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
-      <column name="redsocial_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <column name="organizacion_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="actividades_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <primary-key columns="id"/>
-      <foreign-key name="#FAKE_app_redessocialesorganizacion_1" columns="organizacion_id" ref-table="app_formulario" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
-      <foreign-key name="#FAKE_app_redessocialesorganizacion_2" columns="redsocial_id" ref-table="app_redsocial" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
-      <index name="app_redessocialesorganizacion_d38e3826" unique="true" columns="organizacion_id"/>
-      <index name="app_redessocialesorganizacion_047e549b" unique="true" columns="redsocial_id"/>
+      <foreign-key name="#FAKE_app_organizacion_actividades_1" columns="actividades_id" ref-table="app_actividades" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="app_organizacion_actividades_dfc159dc" unique="true" columns="actividades_id"/>
+      <index name="app_organizacion_actividades_d38e3826" unique="true" columns="organizacion_id"/>
+    </table>
+    <table name="app_organizacion_areas" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="organizacion_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="areasinteres_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_app_organizacion_areas_1" columns="areasinteres_id" ref-table="app_areasinteres" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="app_organizacion_areas_446b719a" unique="true" columns="areasinteres_id"/>
+      <index name="app_organizacion_areas_d38e3826" unique="true" columns="organizacion_id"/>
     </table>
     <table name="app_redsocial" schema="" catalog="" type="TABLE">
       <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <column name="nombre" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="tipo_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <primary-key columns="id"/>
-      <foreign-key name="#FAKE_app_redsocial_1" columns="tipo_id" ref-table="app_tiposredessociales" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
-      <exported-key name="#FAKE_app_redessocialesorganizacion_2" table="app_redessocialesorganizacion" schema="" catalog="" columns="redsocial_id"/>
-      <index name="app_redsocial_acf1eac4" unique="true" columns="tipo_id"/>
+      <exported-key name="#FAKE_app_organizacion_1" table="app_organizacion" schema="" catalog="" columns="red_id"/>
+    </table>
+    <table name="app_redsocial_tipo" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="redsocial_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="tiposredessociales_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_app_redsocial_tipo_1" columns="tiposredessociales_id" ref-table="app_tiposredessociales" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <index name="app_redsocial_tipo_789d5be1" unique="true" columns="tiposredessociales_id"/>
+      <index name="app_redsocial_tipo_047e549b" unique="true" columns="redsocial_id"/>
     </table>
     <table name="app_tipoorganizacion" schema="" catalog="" type="TABLE">
       <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <column name="nombre" sqlType="VARCHAR(140)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <primary-key columns="id"/>
+      <exported-key name="#FAKE_app_organizacion_2" table="app_organizacion" schema="" catalog="" columns="tipo_id"/>
     </table>
     <table name="app_tiposredessociales" schema="" catalog="" type="TABLE">
       <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
       <column name="tipo" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <primary-key columns="id"/>
-      <exported-key name="#FAKE_app_redsocial_1" table="app_redsocial" schema="" catalog="" columns="tipo_id"/>
+      <exported-key name="#FAKE_app_redsocial_tipo_1" table="app_redsocial_tipo" schema="" catalog="" columns="tiposredessociales_id"/>
     </table>
     <table name="auth_group" schema="" catalog="" type="TABLE">
       <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
@@ -193,6 +174,13 @@
       <column name="expire_date" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
       <primary-key columns="session_key"/>
       <index name="django_session_b7b81f0c" unique="true" columns="expire_date"/>
+    </table>
+    <table name="south_migrationhistory" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="app_name" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
+      <column name="migration" sqlType="VARCHAR(255)" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
+      <column name="applied" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
     </table>
   </data-source>
 </component>
