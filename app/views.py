@@ -14,8 +14,8 @@ def organizacion(request, pk):
 
 def main(request):
     organizacion = Organizacion.objects.all().order_by("-fecha")
-    paginator = Paginator(organizacion,3)
-# Create your views here.
+    paginator = Paginator(organizacion,10)
+
     try:
         pagina=int(request.GET.get("page",'1'))
     except ValueError: pagina = 1

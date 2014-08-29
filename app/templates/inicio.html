@@ -22,7 +22,23 @@
             {% endfor %}
         </ul>
     </div>
+
+
 </div>
+                <div class="nav">
+
+
+                    {% if organizacion.has_previous %}
+                        <p>Pagina {{organizacion.number}} de {{organizacion.paginator.num_pages}}
+                    <a href="?page={{ organizacion.previous_page_number}}">Pagina anterior</a>
+
+                    {% endif %}
+
+                     {% if organizacion.has_next %}
+                         <p>Pagina {{organizacion.number}} de {{organizacion.paginator.num_pages}}
+                    <a href="?page={{ organizacion.next_page_number}}"> Pagina Siguiente</a>
+                    {% endif %}</p>
+                </div>
     </div>
 
 {% endblock %}
