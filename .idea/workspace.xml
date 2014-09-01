@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c12e86e-b94c-471b-b76d-07e434f634aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/estructure.html" afterPath="$PROJECT_DIR$/app/templates/estructure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proyecto_OSC/settings.py" afterPath="$PROJECT_DIR$/Proyecto_OSC/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dbscript" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +33,7 @@
       <file leaf-file-name="estructure.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/estructure.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="12" selection-start="535" selection-end="535" vertical-scroll-proportion="-4.6153846" vertical-offset="169" max-vertical-offset="884">
+            <state line="17" column="12" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -44,7 +42,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="40" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="646">
+            <state line="38" column="40" selection-start="1208" selection-end="1208" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -53,7 +51,7 @@
       <file leaf-file-name="inicio.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/inicio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="833">
+            <state line="8" column="6" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
@@ -63,15 +61,6 @@
         <entry file="file://$PROJECT_DIR$/app/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="476">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="organizacion.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/organizacion.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="31" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1105">
               <folding />
             </state>
           </provider>
@@ -89,16 +78,25 @@
       <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="20" selection-start="900" selection-end="923" vertical-scroll-proportion="-6.5384617" vertical-offset="238" max-vertical-offset="4386">
+            <state line="24" column="20" selection-start="900" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="4386">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="330" selection-end="330" vertical-scroll-proportion="0.7771429" vertical-offset="0" max-vertical-offset="1445">
+            <state line="16" column="30" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dbscript" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dbscript">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="0" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.9373849" vertical-offset="596" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -107,10 +105,8 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="37" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state line="12" column="37" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -162,6 +158,7 @@
         <option value="$PROJECT_DIR$/Proyecto_OSC/settings.py" />
         <option value="$PROJECT_DIR$/app/templates/estructure.html" />
         <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/Dbscript" />
       </list>
     </option>
   </component>
@@ -262,60 +259,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Proyecto_OSC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Proyecto_OSC" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -328,15 +271,15 @@
     <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../misitioweb" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -436,7 +379,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Proyecto_OSC" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -462,27 +425,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Proyecto_OSC" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -634,7 +577,11 @@
       <created>1409287630661</created>
       <updated>1409287630661</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="arregle la barra de navegacion">
+      <created>1409600100839</created>
+      <updated>1409600100839</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -666,11 +613,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3189394" sideWeight="0.7823129" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.66156465" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2840909" sideWeight="0.4659864" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28863636" sideWeight="0.6915254" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2840909" sideWeight="0.207483" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28863636" sideWeight="0.30847457" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32482994" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32482994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32482994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31462586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -699,30 +646,13 @@
     <MESSAGE value="arregle la coneccion a postgres, agregue que se vieran las actividades, redes sociales, y areas de interes" />
     <MESSAGE value="modifique la barra de inicio y cambie el tamaño de la lista de las organizaciones al inicio tambien" />
     <MESSAGE value="acomode el paginator para que solo muestre 10 organizaciones y despues los divida por paginas" />
-    <option name="LAST_COMMIT_MESSAGE" value="acomode el paginator para que solo muestre 10 organizaciones y despues los divida por paginas" />
+    <MESSAGE value="arregle la barra de navegacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="arregle la barra de navegacion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://DATABASE/05b7f039-3086-4c8c-b4b9-e96fecdaf155">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>05b7f039-3086-4c8c-b4b9-e96fecdaf155</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="460.0" y="169.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-            <Category>Key columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Python/#C:/Users/Abdul Hamid/PycharmProjects/Proyecto_OSC/Proyecto_OSC">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -770,11 +700,11 @@
             <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:south_migrationhistory</node>
             <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:app_actividades</node>
             <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:auth_user_groups</node>
-            <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:auth_user</node>
             <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:app_organizacion</node>
+            <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:auth_user</node>
             <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:django_admin_log</node>
-            <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:app_organizacion_actividades</node>
             <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:app_organizacion_red</node>
+            <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:app_organizacion_actividades</node>
             <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:auth_permission</node>
             <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:app_tipoorganizacion</node>
             <node x="" y="">4c831d4e-2229-4613-9460-b81490799692.table:app_organizacion_areas</node>
@@ -816,14 +746,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/estructure.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="535" selection-end="535" vertical-scroll-proportion="-4.6153846" vertical-offset="169" max-vertical-offset="884">
+        <state line="17" column="12" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="900" selection-end="923" vertical-scroll-proportion="-6.5384617" vertical-offset="238" max-vertical-offset="4386">
+        <state line="24" column="20" selection-start="900" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="4386">
           <folding />
         </state>
       </provider>
@@ -837,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/inicio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="833">
+        <state line="8" column="6" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
@@ -845,9 +775,7 @@
     <entry file="file://$PROJECT_DIR$/app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="37" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +788,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="330" selection-end="330" vertical-scroll-proportion="0.7771429" vertical-offset="0" max-vertical-offset="1445">
+        <state line="16" column="30" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dbscript">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.9373849" vertical-offset="596" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
