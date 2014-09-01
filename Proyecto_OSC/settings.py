@@ -54,14 +54,6 @@ ROOT_URLCONF = 'Proyecto_OSC.urls'
 WSGI_APPLICATION = 'Proyecto_OSC.wsgi.application'
 
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': 'db.sqlite3',
-#    }
-#}
-# Database
-# https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 DATABASES = {
     'default': {
        'NAME': 'Proyecto_OSC',
@@ -72,6 +64,9 @@ DATABASES = {
        'PORT': '5432'
     }
 }
+# Database
+# https://docs.djangoproject.com/en/1.6/ref/settings/#databases
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/

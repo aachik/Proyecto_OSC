@@ -18,7 +18,8 @@ def main(request):
 
     try:
         pagina=int(request.GET.get("page",'1'))
-    except ValueError: pagina = 1
+    except ValueError: pagi
+    na = 1
 
     try:
         organizacion = paginator.page(pagina)
