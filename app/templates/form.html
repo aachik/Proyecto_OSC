@@ -7,12 +7,14 @@
         <div class="page-header">
             <h1>Formulario de registro<small> llenar todos los datos de ser posible</small></h1>
         </div>
+        <div class="col-xs-8">
         <form class="form-horizontal" method="post" role="form" action="form.html">{% csrf_token %}
             {{ form | crispy }}
 
 
         <input type='submit' class="btn btn-default">
         </form>
+    </div>
     </div>
 
 {% endblock %}

@@ -1,13 +1,11 @@
 {% extends 'estructure.html' %}
 
-{% load staticfiles %}
-{% block content %}
+{% block contenido %}
 
-
+    <h1>Blog del proyecto OSC</h1>
        <div class="content container">
             <div class="row">
                 <div class="col-md-8">
-
                 {% for post in posts %}
                     <div class="post">
                         <div class="date">
@@ -16,6 +14,7 @@
                         <h1><a href="">{{ post.title }}</a></h1>
                         <p>{{ post.text|linebreaks }}</p>
                     </div>
+                    <hr>
                 {% endfor %}
 
 
