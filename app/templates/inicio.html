@@ -1,16 +1,18 @@
 {% extends "estructure.html" %}
-
+{% load crispy_forms_tags %}
 {% block contenido %}
 
 <div class="jumbotron">
   <h1>Proyecto OSC</h1>
   <p>captura de informacion de OSC laguneras</p>
-  <p><a class="btn btn-primary btn-lg" role="button">Registrarte</a></p>
+  <p><a class="btn btn-primary btn-lg" role="button" href="{% url 'app.views.formulario' %}">Registrarte</a></p>
 </div>
 <div class="page-header">
   <h1>Organizaciones registradas <small>Haz click para mostrar mas informacion</small></h1>
 <div class = "container">
     <div class="col-xs-4">
+
+
         <ul  class ="list-group">
 
             {% for organizacion in organizacion.object_list %}
@@ -21,12 +23,26 @@
 
             {% endfor %}
         </ul>
+
     </div>
+<div class="col-xs-8">
+{#     <form class="form-horizontal" method="get" role="form" >{% csrf_token %}#}
+{##}
+{#            {{ form | crispy }}#}
+{##}
+{##}
+{#        <input type='submit' class="btn btn-default">#}
+{#        </form>#}
+    <form method="get" action="/search/" class="navbar-form pull-right">
+        <input type="text" id="searchBox" class="input-medium search-query" name="q" placeholder="Search">
+        <input type="submit" class="btn btn-default" value="Search" >
+   </form>
+
+</div>
 
 
 </div>
                 <div class="nav">
-
 
                     {% if organizacion.has_previous %}
                         <p>Pagina {{organizacion.number}} de {{organizacion.paginator.num_pages}}

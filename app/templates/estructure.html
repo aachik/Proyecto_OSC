@@ -15,10 +15,10 @@
 <div class="container" >
         <ul class = "nav nav-tabs" role="navigation">
             <li><a href="{% url 'app.views.main' %}">Inicio</a></li>
-            <li><a href="{% url 'app.views.form' %}">Registro</a></li>
+            <li><a href="{% url 'app.views.formulario' %}">Registro</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Eventos</a></li>
-            <li class="pull-right"><a href="#">Contacto</a></li>
+            <li class="pull-right"><a href="{% url 'app.views.contacto'%}">Contacto</a></li>
 
 
             <li class="pull-right"><a href="{% url 'app.views.admin' %}">Login</a></li>

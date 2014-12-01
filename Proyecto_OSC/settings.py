@@ -36,8 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.admin',
     'app',
+    'crispy_forms',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -54,14 +54,22 @@ ROOT_URLCONF = 'Proyecto_OSC.urls'
 WSGI_APPLICATION = 'Proyecto_OSC.wsgi.application'
 
 
+# DATABASES = {
+#     'default': {
+#        'NAME': 'Proyecto_OSC',
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'USER': 'postgres',
+#        'PASSWORD': 'aa121292',
+#        'HOST': '',
+#
+#        'PORT': '5432'
+#     }
+# }
+
 DATABASES = {
     'default': {
-       'NAME': 'Proyecto_OSC',
-       'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'USER': 'postgres',
-       'PASSWORD': 'aa121292',
-       'HOST': '',
-       'PORT': '5432'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 # Database
@@ -71,8 +79,10 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es_mx'
 TIME_ZONE = 'UTC'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 USE_I18N = True
 

@@ -13,12 +13,21 @@ urlpatterns = patterns('app.views',
 
     (r'^admin/', include(admin.site.urls)),
     (r"^organizacion/(?P<pk>\d+)/$", "organizacion"),
-    (r"^form/","form"),
+    (r"^form/","formulario"),
     (r"^admin/", "admin"),
-    (r"","main"),
+    (r"^contacto/", "contacto"),
+    (r'^search/$', 'search'),
+
+    (r"^$","main"),
 
 
 )
+
+
+
+
+
+
 
 if settings.DEBUG and settings.STATIC_ROOT:
     urlpatterns += patterns('',

@@ -1,65 +1,50 @@
-CREATE DATABASE "Proyecto_OSC";
-
+BEGIN;
 CREATE TABLE "app_tipoorganizacion" (
-    "id" integer NOT NULL PRIMARY KEY,
+    "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
     "nombre" varchar(140) NOT NULL
 )
 ;
 CREATE TABLE "app_actividades" (
-    "id" integer NOT NULL PRIMARY KEY,
+    "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
     "nombre" varchar(255) NOT NULL
 )
 ;
 CREATE TABLE "app_areasinteres" (
-    "id" integer NOT NULL PRIMARY KEY,
+    "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
     "nombre" varchar(255) NOT NULL
-)
-;
-CREATE TABLE "app_tiposredessociales" (
-    "id" integer NOT NULL PRIMARY KEY,
-    "tipo" varchar(255) NOT NULL
-)
-;
-CREATE TABLE "app_redsocial_tipo" (
-    "id" integer NOT NULL PRIMARY KEY,
-    "redsocial_id" integer NOT NULL,
-    "tiposredessociales_id" integer NOT NULL REFERENCES "app_tiposredessociales" ("id"),
-    UNIQUE ("redsocial_id", "tiposredessociales_id")
-)
-;
-CREATE TABLE "app_redsocial" (
-    "id" integer NOT NULL PRIMARY KEY,
-    "nombre" varchar(255) NOT NULL
-)
-;
-CREATE TABLE "app_organizacion_actividades" (
-    "id" integer NOT NULL PRIMARY KEY,
-    "organizacion_id" integer NOT NULL,
-    "actividades_id" integer NOT NULL REFERENCES "app_actividades" ("id"),
-    UNIQUE ("organizacion_id", "actividades_id")
 )
 ;
 CREATE TABLE "app_organizacion_areas" (
-    "id" integer NOT NULL PRIMARY KEY,
+    "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
     "organizacion_id" integer NOT NULL,
     "areasinteres_id" integer NOT NULL REFERENCES "app_areasinteres" ("id"),
     UNIQUE ("organizacion_id", "areasinteres_id")
 )
 ;
+CREATE TABLE "app_organizacion_actividades" (
+    "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "organizacion_id" integer NOT NULL,
+    "actividades_id" integer NOT NULL REFERENCES "app_actividades" ("id"),
+    UNIQUE ("organizacion_id", "actividades_id")
+)
+;
 CREATE TABLE "app_organizacion" (
-    "id" integer NOT NULL PRIMARY KEY,
+    "id" integer NOT NULL PRIMARY KEY AUTOINCREMENT,
     "nombre" varchar(150) NOT NULL,
     "poblacion" varchar(100) NOT NULL,
     "direccion" varchar(200) NOT NULL,
-    "fecha" date NOT NULL,
-    "telefono" varchar(15) NOT NULL,
+    "fechaInicio" date NOT NULL,
+    "telefono" decimal NOT NULL,
     "dias" varchar(200) NOT NULL,
-    "iniciohora" time NOT NULL,
-    "finhora" time NOT NULL,
+    "horario" varchar(30) NOT NULL,
     "nombrecontacto" varchar(150) NOT NULL,
-    "numeropersonas" varchar(3) NOT NULL,
+    "numeropersonas" decimal NOT NULL,
     "recursos" varchar(255) NOT NULL,
     "tipo_id" integer NOT NULL REFERENCES "app_tipoorganizacion" ("id"),
-    "red_id" integer NOT NULL REFERENCES "app_redsocial" ("id")
+    "facebook" varchar(150) NOT NULL,
+    "twitter" varchar(140) NOT NULL,
+    "correo" varchar(150) NOT NULL
 )
 ;
+
+COMMIT;

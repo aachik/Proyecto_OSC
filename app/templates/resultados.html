@@ -1,0 +1,18 @@
+{% extends 'estructure.html' %}
+
+{% block contenido %}
+
+   <div class="">
+       <h1>Encontramos:
+
+           {% if organizacion != 'None' %}
+            <a href="{% url 'app.views.organizacion' organizacion.pk %}">{{ organizacion.nombre }}</a>
+
+           {% else %}
+            No hay nada!
+           {% endif %}
+       </h1>
+
+   </div>
+
+{% endblock %}
