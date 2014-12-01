@@ -9,16 +9,16 @@ urlpatterns = patterns('',
 )
 
 
-urlpatterns = patterns('app.views',
+urlpatterns = patterns('',
 
     (r'^admin/', include(admin.site.urls)),
-    (r"^organizacion/(?P<pk>\d+)/$", "organizacion"),
-    (r"^form/","formulario"),
-    (r"^admin/", "admin"),
-    (r"^contacto/", "contacto"),
-    (r'^search/$', 'search'),
-
-    (r"^$","main"),
+    (r"^organizacion/(?P<pk>\d+)/$", "app.views.organizacion"),
+    (r"^form/","app.views.formulario"),
+    (r"^admin/", "app.views.admin"),
+    (r"^contacto/", "app.views.contacto"),
+    (r'^search/$', 'app.views.search'),
+    (r'^blog/','blog.views.post_list'),
+    (r"^$","app.views.main"),
 
 
 )
