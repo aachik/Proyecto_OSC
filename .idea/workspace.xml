@@ -676,7 +676,11 @@
       <created>1417433618368</created>
       <updated>1417433618368</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="agregue un blog y agrege un metodo de busqueda simple">
+      <created>1417433638865</created>
+      <updated>1417433638865</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -774,7 +778,8 @@
     <MESSAGE value="arregle la barra de navegacion" />
     <MESSAGE value="agregue el script opara crear la base de datos" />
     <MESSAGE value="arregle el formulario, puse una barra de search super sencilla" />
-    <option name="LAST_COMMIT_MESSAGE" value="arregle el formulario, puse una barra de search super sencilla" />
+    <MESSAGE value="agregue un blog y agrege un metodo de busqueda simple" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregue un blog y agrege un metodo de busqueda simple" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
